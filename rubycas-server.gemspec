@@ -41,7 +41,7 @@ build the LOCALE_LC files.
     else
       s.add_dependency(%q<activesupport>, [">= 0"])
       s.add_dependency(%q<activerecord>, [">= 0"])
-      s.add_dependency(%q<gettext>, [">= 2.3.5"])
+      s.add_dependency(%q<gettext>, [">= 0"])
       s.add_dependency(%q<picnic>, [">= 0.7.999"])
       s.add_dependency(%q<hoe>, [">= 1.8.2"])
     end
